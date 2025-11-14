@@ -1,0 +1,77 @@
+# -------------------------
+# Virtual Environments
+# -------------------------
+.venv/
+venv/
+env/
+*.env
+*.venv
+
+# -------------------------
+# VSCode
+# -------------------------
+.vscode/
+*.code-workspace
+
+# -------------------------
+# Python cache / temp
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# -------------------------
+# Build / Packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Logs / Dumps
+# -------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# -------------------------
+# IDE folders
+# -------------------------
+.idea/
+.spyderproject
+.spyproject
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+.jupyter/
+
+# -------------------------
+# dotenv / credentials
+# -------------------------
+*.env
+*.secret
+*.credentials
+*.key
+*.pem
+
+# -------------------------
+# Cache folders
+# -------------------------
+.cache/
+.mypy_cache/
+.pytest_cache/
+pytest_cache/
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
