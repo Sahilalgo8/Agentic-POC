@@ -29,12 +29,6 @@ st.set_page_config(
 )
 
 
-
-
-import re
-import ast
-from datetime import datetime
-
 def safe_parse_result(raw):
     """
     Converts string result containing datetime.datetime(...) into 
@@ -54,7 +48,6 @@ def safe_parse_result(raw):
     # Step 2 — Safely parse with literal_eval
     return ast.literal_eval(cleaned)
 def convert_to_dataframe(data_dict):
-    import pandas as pd
 
     columns = data_dict["columns"]
     rows = data_dict["rows"]
